@@ -14,7 +14,6 @@ import Toolbar from "./Toolbar";
 
 
 
-
 export default function DragDropSiteBuilder() {
   const [items, setItems] = useState([]); 
   const [selectedId, setSelectedId] = useState(null);
